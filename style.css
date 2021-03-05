@@ -1,0 +1,31 @@
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    text-align: center;
+    color: #fff;
+}
+.button{
+    position: relative;
+    width: 170px;
+    padding: 20px;
+    font-size: 16px;
+    color: #e90e20;
+    background: #111;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid  #e90e20;
+    text-transform: uppercase;
+    transform: translateY(20%);
+    letter-spacing: 8px;
+    cursor: pointer;
+    left: 885px;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.button:hover{
+    box-shadow: 0 1px 25px 0 #e90e20, 0 1px 25px 0  #e90e20,
+    0 1px 25px 0  #e90e20  inset, 0 1px 25px 0  #e90e20 ;
+    text-shadow: 0 1px 25px 0  #e90e20 , 0 1px 25px 0  #e90e20 ;
+}
